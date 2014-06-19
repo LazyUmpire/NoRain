@@ -1,9 +1,9 @@
 name: NoRain
 main: me.ellbristow.norain.NoRain
-version: 1.1.5
+version: 1.1.6
 author: ellbristow
 description: >
-             Turn of rain... simples!
+             Turn off rain... simples!
 commands:
   norain:
     description: NoRain main toggle command

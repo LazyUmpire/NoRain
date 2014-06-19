@@ -44,7 +44,6 @@ public class NoRain extends JavaPlugin implements Listener {
     @EventHandler (priority = EventPriority.NORMAL)
     public void onRainStart(WeatherChangeEvent event) {
         if (!event.isCancelled()) {
-            boolean setting = rainWorlds.get(event.getWorld().getName());
             if (event.toWeatherState() && rainWorlds.get(event.getWorld().getName())) {
                 event.setCancelled(true);
             }
